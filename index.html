@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>路橋巡演工作室｜讓世界看見，你們的舞台</title>
+<!-- 路橋網站 v5.0 -->
+<meta name="description" content="台灣表演藝術團隊的國際巡演與交流夥伴：國際邀約、立案協助、補助企劃、隨團統籌。第一步「出國健檢」永遠免費。">
+<meta name="theme-color" content="#F4F2EC">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='38' cy='26' r='22' fill='%23D8452E'/%3E%3Ccircle cx='24' cy='40' r='16' fill='none' stroke='%232C4FA3' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="canonical" href="https://lubridge1999.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:site_name" content="路橋巡演工作室 Lu Bridge Touring Studio">
+<meta property="og:title" content="路橋巡演工作室｜讓世界看見，你們的舞台">
+<meta property="og:description" content="你們專心排練，出國的事交給我們。國際邀約、補助企劃、隨團統籌——第一步出國健檢免費。">
+<meta property="og:url" content="https://lubridge1999.github.io/">
+<meta property="og:image" content="https://lubridge1999.github.io/img/share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    --bone: #F4F2EC;
+    --paper: #FCFBF8;
+    --ink: #21201C;
+    --red: #D8452E;
+    --red2: #C63A2F;
+    --blue: #2C4FA3;
+    --muted: #6B675C;
+    --line: #DEDAD0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  @page { size: A4; margin: 0; }
+  @media print {
+    section, header.hero, footer { break-inside: avoid; }
+    section { padding: 48px 0 44px; }
+  }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    background: var(--bone);
+    color: var(--ink);
+    font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-size: 16px; line-height: 1.8;
+  }
+  .serif { font-family: "Noto Serif TC", "Songti TC", "PMingLiU", serif; }
+  a { color: inherit; }
+
+  /* 頂欄 */
+  nav {
+    display: flex; align-items: center; gap: 18px;
+    max-width: 1020px; margin: 0 auto; padding: 24px 22px 0;
+    font-size: 14px; position: relative; z-index: 5;
+  }
+  nav .logo { font-family: "Noto Serif TC", serif; font-weight: 900; font-size: 19px; letter-spacing: .12em; }
+  nav .logo small { display: block; font-family: "PingFang TC", sans-serif; font-size: 9px; letter-spacing: .22em; color: var(--blue); font-weight: 600; margin-top: -1px; }
+  nav .menu { margin-left: auto; display: flex; gap: 20px; color: var(--muted); }
+  nav .menu a { text-decoration: none; }
+  nav .menu a:hover, nav .menu a:focus { color: var(--red); }
+
+  .wrap { max-width: 1020px; margin: 0 auto; padding: 0 22px; }
+
+  /* Hero：藝術節海報 */
+  header.hero {
+    position: relative; overflow: hidden; min-height: 580px;
+    background-image: linear-gradient(90deg, rgba(33,32,28,.04) 1px, transparent 1px);
+    background-size: 25% 100%;
+  }
+  .hero .circle {
+    position: absolute; width: clamp(280px, 42vw, 520px); height: clamp(280px, 42vw, 520px);
+    border-radius: 50%; right: -8%; top: -14%; z-index: 1;
+    background: radial-gradient(circle at 35% 35%, #E1543A, var(--red2) 72%);
+  }
+  .hero .ring {
+    position: absolute; width: clamp(180px, 26vw, 330px); height: clamp(180px, 26vw, 330px);
+    border-radius: 50%; border: 2.5px solid var(--blue); right: 18%; top: 34%; opacity: .55; z-index: 1;
+  }
+  .hero .dots {
+    position: absolute; left: -20px; bottom: -16px; width: 240px; height: 160px; z-index: 1;
+    background-image: radial-gradient(var(--ink) 1.4px, transparent 1.7px);
+    background-size: 13px 13px; opacity: .2; transform: rotate(-6deg);
+  }
+  .hero .sidelabel {
+    position: absolute; left: 22px; top: 130px; z-index: 2;
+    writing-mode: vertical-rl; font-size: 11px; letter-spacing: .32em; color: var(--blue); font-weight: 600;
+  }
+  .hero .comp { position: relative; z-index: 2; max-width: 1020px; margin: 0 auto; padding: 96px 22px 70px 88px; }
+  .hero .line1 { font-family: "Noto Serif TC", serif; font-size: clamp(20px, 3vw, 27px); }
+  .hero h1 {
+    font-family: "Noto Serif TC", "Songti TC", serif;
+    font-size: clamp(46px, 9vw, 88px); font-weight: 900; line-height: 1.2; letter-spacing: .01em;
+  }
+  .hero h1 .blue { color: var(--blue); }
+  .hero .sub { font-size: 15px; color: var(--muted); margin-top: 18px; max-width: 27em; }
+  .btn {
+    display: inline-block; margin-top: 26px; padding: 14px 34px;
+    background: var(--ink); color: var(--bone); text-decoration: none;
+    font-family: "Noto Serif TC", serif; font-size: 16px; letter-spacing: .14em;
+  }
+  .btn:hover, .btn:focus { background: var(--red2); }
+  .hero .metaRow { font-size: 12px; letter-spacing: .14em; margin-top: 22px; color: var(--muted); }
+  @media (max-width: 640px) {
+    .hero .comp { padding: 64px 22px 56px 58px; }
+    .hero .sidelabel { left: 16px; top: 96px; }
+    /* v4.4：手機版紅圓縮小、往右上移，不再壓到「舞台」兩字與副標 */
+    .hero .circle { width: 200px; height: 200px; right: -70px; top: -90px; }
+    .hero .ring { right: 6%; top: 46%; }
+    /* v4.4：手機版選單不再被擠成直排 */
+    nav { gap: 12px; padding-top: 18px; }
+    nav .logo { flex: none; font-size: 17px; }
+    nav .logo small { font-size: 8.5px; letter-spacing: .16em; }
+    nav .menu { gap: 14px; font-size: 13px; white-space: nowrap; }
+  }
+  @media (max-width: 359px) { nav .menu { display: none; } }
+
+  /* 區塊共用 */
+  section { padding: 74px 0 66px; }
+  .eyebrow { font-size: 12px; letter-spacing: .3em; color: var(--blue); font-weight: 700; margin-bottom: 12px; }
+  h2 { font-family: "Noto Serif TC", "Songti TC", serif; font-size: clamp(27px, 4.4vw, 38px); font-weight: 900; line-height: 1.35; margin-bottom: 12px; text-wrap: balance; }
+  h2::before { content: ""; display: block; width: 52px; height: 8px; background: var(--red); margin-bottom: 16px; }
+  .sec-lede { color: var(--muted); max-width: 36em; }
+  .rule { border: none; border-top: 1.5px solid var(--ink); max-width: 1020px; margin: 0 auto; opacity: .85; }
+
+  /* 服務對象 */
+  .serve { margin-top: 20px; font-size: 14.5px; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .chips span { font-size: 13px; border: 1.5px solid var(--ink); padding: 3px 14px; background: var(--paper); }
+  .age { margin-top: 10px; font-size: 14.5px; color: var(--muted); }
+  .age b { color: var(--ink); }
+
+  .positioning {
+    margin-top: 24px; padding: 16px 24px; border-left: 8px solid var(--red);
+    background: var(--paper); border-top: 1.5px solid var(--ink); border-right: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink);
+    font-family: "Noto Serif TC", serif; font-size: 20px; font-weight: 700;
+  }
+
+  /* 問答卡 */
+  .qa-grid { margin-top: 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 620px) { .qa-grid { grid-template-columns: 1fr; } }
+  .sol-card { background: var(--paper); border: 1.5px solid var(--ink); padding: 24px 26px 22px; }
+  .sol-card .q { font-size: 14.5px; color: var(--muted); }
+  .sol-card .q .qm { font-family: "Noto Serif TC", serif; color: var(--red); }
+  .sol-card .a { font-family: "Noto Serif TC", serif; font-size: 22px; font-weight: 900; margin: 12px 0 0; }
+  .sol-card .a::before { content: ""; display: block; width: 26px; height: 4px; background: var(--blue); margin-bottom: 10px; }
+  .sol-card .d { font-size: 13.5px; color: var(--muted); margin: 6px 0 0; }
+
+  .entry {
+    margin-top: 30px; background: var(--paper); border: 1.5px solid var(--ink);
+    padding: 24px 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px;
+  }
+  .entry .txt { flex: 1; min-width: 240px; }
+  .entry b { font-family: "Noto Serif TC", serif; font-size: 20px; font-weight: 900; display: block; margin-bottom: 4px; }
+  .entry b .free { color: var(--red); }
+  .entry p { font-size: 14.5px; color: var(--muted); }
+  .entry .btn { margin-top: 0; }
+
+  /* 案例：墨黑海報帶 */
+  .case-band { background: var(--ink); color: #EFEBE0; position: relative; overflow: hidden; }
+  .case-band .circle2 {
+    position: absolute; width: 300px; height: 300px; border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #E1543A, var(--red2) 72%);
+    right: -110px; top: -110px; opacity: .9;
+  }
+  .case-band .wrap { position: relative; z-index: 2; }
+  .case-band .eyebrow { color: #E8A64C; }
+  .case-band h2 { color: #F5F1E4; }
+  .case-band h2::before { background: var(--red); }
+  .case-band .sec-lede { color: #B9B4A4; }
+  .case-facts { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 26px; }
+  .fact { border: 1.5px solid rgba(239,235,224,.4); padding: 14px 20px; font-size: 14.5px; }
+  .fact b { display: block; font-family: "Noto Serif TC", serif; font-size: 20px; color: #F0E8D2; }
+  .case-band figure { margin: 0; }
+  .case-band figure img { display: block; width: 100%; height: auto; object-fit: cover; background: #33312B; }
+  .case-band figcaption { margin-top: 7px; font-size: 12.5px; line-height: 1.6; letter-spacing: .04em; color: #B9B4A4; }
+  .case-band .case-lead { margin-top: 28px; }
+  .case-lead img { aspect-ratio: 1600 / 969; }
+  .gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px 12px; margin-top: 16px; }
+  @media (max-width: 620px) { .gallery { grid-template-columns: repeat(2, 1fr); } }
+  .gallery img { aspect-ratio: 4 / 3; }
+  .reel {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; margin-top: 26px;
+    padding: 14px; border: 1.5px dashed rgba(239,235,224,.45);
+  }
+  .reel img { flex: none; display: block; width: min(100%, 320px); aspect-ratio: 16 / 9; object-fit: cover; }
+  .reel .txt { flex: 1; min-width: 220px; font-size: 14px; color: #B9B4A4; }
+  .reel .txt b { display: block; font-family: "Noto Serif TC", serif; font-size: 19px; color: #F0E8D2; margin-bottom: 4px; }
+  .case-note { margin-top: 20px; font-size: 13.5px; color: #A5A08F; }
+
+  /* 團隊 */
+  .about { display: flex; gap: 34px; margin-top: 30px; flex-wrap: wrap; }
+  .photo {
+    flex: none; display: block; width: 220px; height: 260px; object-fit: cover;
+    border: 1.5px solid var(--ink); background: var(--paper);
+  }
+  .bio { flex: 1; min-width: 260px; }
+  .bio h3 { font-family: "Noto Serif TC", serif; font-size: 25px; font-weight: 900; }
+  .bio .title { font-size: 13px; color: var(--blue); letter-spacing: .14em; margin: 3px 0 14px; font-weight: 600; }
+  .bio p { font-size: 15px; color: #4A463E; margin-bottom: 12px; max-width: 40em; }
+  .creds { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+  .creds span { font-size: 12.5px; border: 1px solid var(--line); background: var(--paper); padding: 3px 13px; color: var(--muted); }
+  .team-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 26px; }
+  @media (max-width: 620px) { .team-grid { grid-template-columns: 1fr; } }
+  .member { background: var(--paper); border: 1.5px solid var(--ink); padding: 22px 24px; display: flex; gap: 18px; align-items: flex-start; }
+  .member .mphoto {
+    flex: none; width: 74px; height: 88px; border: 1.5px dashed var(--ink);
+    display: flex; align-items: center; justify-content: center; color: var(--muted);
+    font-size: 11px; letter-spacing: .1em; text-align: center; background: var(--bone);
+  }
+  .member h4 { font-family: "Noto Serif TC", serif; font-size: 18px; font-weight: 900; margin: 0; }
+  .member .mtitle { font-size: 12px; color: var(--blue); letter-spacing: .12em; margin: 2px 0 7px; font-weight: 600; }
+  .member p { font-size: 13.5px; color: var(--muted); margin: 0; }
+  .member .creds { margin-top: 10px; gap: 6px; }
+  .member .creds span { font-size: 11.5px; padding: 2px 11px; }
+
+  /* FAQ */
+  .faq { margin-top: 26px; display: flex; flex-direction: column; }
+  .qa1 { padding: 20px 0; border-top: 1px solid var(--line); }
+  .qa1 b { display: block; font-size: 17px; margin-bottom: 4px; font-family: "Noto Serif TC", serif; font-weight: 700; }
+  .qa1 b::before { content: "問"; color: var(--bone); background: var(--red); font-size: 12px; padding: 1px 8px; margin-right: 10px; vertical-align: 2px; }
+  .qa1 p { font-size: 14.5px; color: var(--muted); max-width: 44em; }
+
+  /* 聯絡 */
+  .contact { text-align: center; padding: 88px 0 84px; position: relative; overflow: hidden; }
+  .contact .ring2 { position: absolute; width: 220px; height: 220px; border-radius: 50%; border: 2.5px solid var(--blue); left: -80px; bottom: -80px; opacity: .35; }
+  .contact h2 { font-size: clamp(30px, 5.5vw, 44px); }
+  .contact h2::before { margin: 0 auto 16px; }
+  .contact .sec-lede { margin: 8px auto 0; }
+  .contact .btn { margin-top: 28px; padding: 16px 42px; font-size: 17px; }
+  .contact .ways { margin-top: 26px; font-size: 14.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px 26px; justify-content: center; }
+  .contact .ways a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+
+  footer { border-top: 1.5px solid var(--ink); padding: 26px 0 46px; font-size: 12.5px; color: var(--muted); }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+  .team-note { margin-top: 22px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+
+<nav>
+  <span class="logo">路橋巡演工作室<small>LU BRIDGE TOURING STUDIO</small></span>
+  <span class="menu">
+    <a href="#service">服務</a>
+    <a href="#case">案例</a>
+    <a href="#team">團隊</a>
+    <a href="#contact">聯絡</a>
+  </span>
+</nav>
+
+<header class="hero">
+  <div class="circle"></div>
+  <div class="ring"></div>
+  <div class="dots"></div>
+  <div class="sidelabel">路橋巡演工作室・LU BRIDGE TOURING STUDIO</div>
+  <div class="comp">
+    <p class="line1">讓世界看見，</p>
+    <h1>你們的<span class="blue">舞台</span>。</h1>
+    <p class="sub">你們專心排練，出國的事交給我們——台灣表演藝術團隊的國際巡演與交流夥伴。</p>
+    <a class="btn" href="https://line.me/ti/p/~luciokuo8831" target="_blank" rel="noopener">LINE 預約免費出國健檢</a>
+    <div class="metaRow">國際邀約 ／ 補助企劃 ／ 隨團統籌</div>
+  </div>
+</header>
+
+<hr class="rule">
+
+<section id="service">
+  <div class="wrap">
+    <div class="eyebrow">從排練場，到國際藝術節</div>
+    <h2>出國演出卡在哪，<br>我們就接手到哪。</h2>
+    <div class="positioning">「我們是你的團的國際事務部。」</div>
+    <p class="serve">不只舞團——只要想把作品帶出國的團隊，都是我們的服務對象：</p>
+    <div class="chips">
+      <span>民俗舞蹈</span><span>合唱</span><span>國樂・絲竹</span><span>原住民樂舞</span><span>武術・藝陣</span><span>青年樂團</span><span>戲曲・劇場</span>
+    </div>
+    <p class="age">從<b>國小、國中、高中到大學</b>的校園團隊，到社區與半職業團隊——都帶得出去。</p>
+    <div class="qa-grid">
+      <div class="sol-card">
+        <p class="q"><span class="qm">「</span>藝術節、交流演出的邀約，要從哪來？<span class="qm">」</span></p>
+        <p class="a">國際邀約對接</p>
+        <p class="d">透過藝術節與國際交流網絡，把正式邀約拿到手。</p>
+      </div>
+      <div class="sol-card">
+        <p class="q"><span class="qm">「</span>還沒立案，連申請補助的資格都沒有？<span class="qm">」</span></p>
+        <p class="a">立案協助</p>
+        <p class="d">陪你完成登記，一次打開補助的大門。</p>
+      </div>
+      <div class="sol-card">
+        <p class="q"><span class="qm">「</span>計畫書、預算、核銷，誰有時間弄？<span class="qm">」</span></p>
+        <p class="a">補助企劃</p>
+        <p class="d">中央加地方疊著申請，文件我們寫、流程我們跑。</p>
+      </div>
+      <div class="sol-card">
+        <p class="q"><span class="qm">「</span>機票簽證保險通關，出了錯怎麼辦？<span class="qm">」</span></p>
+        <p class="a">隨團統籌</p>
+        <p class="d">出發到返國，行政與翻譯全程有人扛。</p>
+      </div>
+    </div>
+    <div class="entry">
+      <span class="txt"><b>第一步，<span class="free">永遠免費</span>。</b><p>出國健檢：一次線上聊＋一份體質報告——你的團適合哪些補助、搆得到哪些藝術節。聊完不合作，報告也帶得走。</p></span>
+      <a class="btn" href="https://line.me/ti/p/~luciokuo8831" target="_blank" rel="noopener">LINE 預約免費出國健檢</a>
+    </div>
+  </div>
+</section>
+
+<section class="case-band" id="case">
+  <div class="circle2"></div>
+  <div class="wrap">
+    <div class="eyebrow">CASE STUDY・2026 夏天</div>
+    <h2>藝姿舞集・2026 葡西巡演</h2>
+    <p class="sec-lede">台灣民俗舞蹈團隊「藝姿舞集」，帶著自己的作品站上伊比利半島的國際民俗藝術節舞台。</p>
+    <div class="case-facts">
+      <div class="fact"><b>葡萄牙・西班牙</b>31 天・4 個國際藝術節</div>
+      <div class="fact"><b>20 餘個城鎮</b>與 9 國團隊同台</div>
+      <div class="fact"><b>隨團統籌</b>翻譯・當地對接・行程與突發處理</div>
+    </div>
+    <figure class="case-lead">
+      <img src="img/case-main.jpg" alt="藝姿舞集全團身著演出服，在藝術節廣場前拉起團名布條合影">
+      <figcaption>藝姿舞集全團，在伊比利半島的國際民俗藝術節</figcaption>
+    </figure>
+    <div class="gallery">
+      <figure>
+        <img src="img/case-stage.jpg" loading="lazy" alt="藝術節舞台上，藝姿舞者與各國團隊成員一起合影">
+        <figcaption>舞台上，與各國團隊合影</figcaption>
+      </figure>
+      <figure>
+        <img src="img/case-director.jpg" loading="lazy" alt="郭書岳與藝術節主席在場邊溝通">
+        <figcaption>與藝術節主席現場協調</figcaption>
+      </figure>
+      <figure>
+        <img src="img/case-press.jpg" loading="lazy" alt="攝影機前，團長與郭書岳接受當地媒體採訪">
+        <figcaption>接受當地媒體採訪</figcaption>
+      </figure>
+      <figure>
+        <img src="img/case-exchange.jpg" loading="lazy" alt="郭書岳與他國團隊成員合影">
+        <figcaption>與他國團隊交流</figcaption>
+      </figure>
+    </div>
+    <p class="case-note">這也不是我們第一次在路上——團隊成員曾隨團走過 2014 法國・義大利、2018 荷蘭・比利時的藝術節巡演。</p>
+  </div>
+</section>
+
+<section id="team">
+  <div class="wrap">
+    <div class="eyebrow">團隊</div>
+    <h2>誰帶你們走出去。</h2>
+    <div class="about">
+      <img class="photo" src="img/lucio.jpg" loading="lazy" alt="郭書岳在藝術節場地觀眾席">
+      <div class="bio">
+        <h3>郭書岳 Lucio Kuo</h3>
+        <div class="title">創辦人・巡演總監｜FOUNDER &amp; TOUR DIRECTOR</div>
+        <p>電影製片出身。十多部短片、廣告與 MV 的製片統籌——預算、時程、跨部門溝通；完整跑過政府補助「申請—執行—核銷」的全流程。</p>
+        <p>2019 年在巴塞隆納開啟與伊比利世界的緣分；2026 年藝姿葡西巡演擔任隨團翻譯與當地對接——31 天、4 個藝術節、20 餘個城鎮。你們負責作品，他負責讓世界看到。</p>
+        <div class="creds">
+          <span>世新大學廣電系電影組</span>
+          <span>中・英・西・日多語</span>
+          <span>TOEIC 975・IELTS 7.5・TOEFL 110</span>
+          <span>UCLA Extension 製片證書</span>
+          <span>12+ 部影視製片經歷</span>
+        </div>
+      </div>
+    </div>
+    <p class="team-note">隨團影像紀錄、專案管理等夥伴，依巡演規模編組。</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">常見問答</div>
+    <h2>團長們最常問的四件事</h2>
+    <div class="faq">
+      <div class="qa1"><b>我們的團很小、也不是職業團，可以嗎？</b><p>可以，你們正是我們想服務的對象。國際藝術節與文化交流活動，本來就歡迎業餘與社區團隊——舞蹈、合唱、國樂、武術都一樣。</p></div>
+      <div class="qa1"><b>還沒立案怎麼辦？</b><p>沒關係，立案就是服務的第一步；完成登記，多數補助的大門就開了。</p></div>
+      <div class="qa1"><b>費用怎麼算？</b><p>以協助你們取得的補助為基礎；初次健檢免費，先確認適合走哪條路，再談合作。</p></div>
+      <div class="qa1"><b>要多早開始準備？</b><p>理想是出發前一年——補助與藝術節都有時程，越早盤點，能疊的資源越多。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="ring2"></div>
+  <div class="wrap">
+    <div class="eyebrow">跨出第一步</div>
+    <h2>先做一次免費出國健檢</h2>
+    <p class="sec-lede">一次線上聊，知道你的團離國際舞台有多近。</p>
+    <a class="btn" href="https://line.me/ti/p/~luciokuo8831" target="_blank" rel="noopener">LINE 預約免費出國健檢</a>
+    <div class="ways">
+      <span>Email：<a href="mailto:lubridge1999@gmail.com">lubridge1999@gmail.com</a></span>
+      <span>LINE ID：<a href="https://line.me/ti/p/~luciokuo8831" target="_blank" rel="noopener">luciokuo8831</a></span>
+      <span><a href="https://www.linkedin.com/in/lucio-kuo-03b251214/" target="_blank" rel="noopener">LinkedIn</a></span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>路橋巡演工作室・LU BRIDGE TOURING STUDIO</span>
+    <span>台灣表演藝術團隊的國際巡演與交流夥伴</span>
+    <span>© 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
