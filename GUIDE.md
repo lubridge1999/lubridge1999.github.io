@@ -21,9 +21,8 @@
 
 1. **訂閱 Claude Pro**：到 https://claude.ai 用你自己的帳號登入 → 升級成 **Pro**（約 US$20／月，以官網價格為準）。先按月付，用一個月再決定要不要繼續。免費版沒有改 GitHub 的功能。
 2. **打開 Claude 的 Code 功能**：網頁版直接開 https://claude.ai/code （用 Claude 桌面 app 的話，點上方的 **Code** 分頁）。
-3. **連結 GitHub**：第一次會請你連結 GitHub。登入路橋的 GitHub 帳號 **lubridge1999**（用 lubridge1999@gmail.com 註冊的。GitHub 密碼是夥伴註冊時設的，跟她拿；登入時的驗證信會寄到這個 Gmail）。
+3. **連結 GitHub**：第一次會請你連結 GitHub。登入路橋的 GitHub 帳號 **lubridge1999**：選「**Continue with Google**（用 Google 登入）」，用 lubridge1999@gmail.com 登入就好，沒有另外的 GitHub 密碼。
    授權時如果問「要給哪些倉庫」，選 **Only select repositories → lubridge1999.github.io** 就好。
-   登入時如果要「驗證碼」，找當初設定雙重驗證的夥伴。
 4. **選倉庫**：選 `lubridge1999/lubridge1999.github.io`。
 5. **貼上下面的〈開場指令〉**，讓 Claude 先讀完規則、跟你報告網站現況。第一次先不改任何東西。
 
